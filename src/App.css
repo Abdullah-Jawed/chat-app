@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color: #6153cc;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.fs-10 {
+    font-size: 10px!important
+}
+
+.fs-11 {
+    font-size: 11px!important
+}
+
+.fs-12 {
+    font-size: 12px!important
+}
+
+.fs-13 {
+    font-size: 13px!important
+}
+
+.fs-14 {
+    font-size: 14px!important
+}
+
+.fs-15 {
+    font-size: 15px!important
+}
+
+.fs-16 {
+    font-size: 16px!important
+}
+
+.fs-17 {
+    font-size: 17px!important
+}
+
+.fs-18 {
+    font-size: 18px!important
+}
+
+.fs-19 {
+    font-size: 19px!important
+}
+
+.fs-20 {
+    font-size: 20px!important
+}
+
+.fs-21 {
+    font-size: 21px!important
+}
+
+.fs-22 {
+    font-size: 22px!important
+}
+
+.fs-23 {
+    font-size: 23px!important
+}
+
+.fs-24 {
+    font-size: 24px!important
+}
+
+.fs-25 {
+    font-size: 25px!important
+}
+
+.fs-36 {
+    font-size: 36px!important
+}
+
+.fs-48 {
+    font-size: 48px!important
+}
+.auth-bg{
+    background-image: url(./assets/images/auth-img.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.authentication-page-content {
+    height: calc(100% - 48px);
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 24px;
+}
+.btn-primary{
+    transition: all .3s;
+    background-color: var(--primary-color) !important;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-5px);
+}
+.primary-color{
+    color: var(--primary-color) !important;
+}
+label{
+    font-weight: 400;
+}
+.form-control{
+    padding: .6rem 1rem;
+}
+.form-control:focus{
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
